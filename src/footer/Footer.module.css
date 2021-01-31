@@ -1,0 +1,31 @@
+.footerBlock {
+    height: 40vh;
+    background-color: lightskyblue;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: normal;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+    border: 1px solid black;
+}
+.safety {
+    display: flex;
+    justify-content: center;
+}

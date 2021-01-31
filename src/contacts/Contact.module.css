@@ -1,0 +1,18 @@
+.contactBlock {
+    height: 60vh;
+    background-color: lightpink;
+}
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+button {
+    margin-top: 20px;
+    width: 120px;
+    padding: 5px 0;
+    background: linear-gradient(10deg, #ddb35f, #7409c7);
+    border: 3px black solid;
+    border-radius: 10px;
+}
