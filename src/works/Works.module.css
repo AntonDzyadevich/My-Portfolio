@@ -20,3 +20,8 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1010px) {
+    .works {
+        justify-content: center;
+    }
+}
