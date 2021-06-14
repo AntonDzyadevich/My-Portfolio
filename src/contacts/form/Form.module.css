@@ -1,7 +1,21 @@
+.formBlock {
+    width: 40%;
+    margin-top: 60px;
+}
+
+
+
 .form {
     display: flex;
     flex-direction: column;
+
 }
 input {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .formBlock {
+        width: 100%;
+    }
 }

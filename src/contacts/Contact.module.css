@@ -1,5 +1,5 @@
 .contactBlock {
-    min-height: 60vh;
+    min-height: 40vh;
     background-color: lightpink;
 }
 .contactContainer {
@@ -16,3 +16,4 @@ button {
     border: 3px black solid;
     border-radius: 10px;
 }
+

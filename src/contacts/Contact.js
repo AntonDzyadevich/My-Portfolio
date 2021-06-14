@@ -1,13 +1,15 @@
 import style from "./Contact.module.css";
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import Form from "./form/Form";
+import Title from "../common/components/title/Title";
+import React from "react";
 
 
 function Contact() {
     return (
         <div className={style.contactBlock}>
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
-                <h2 className={style.title}>Contact</h2>
+                <Title text={"Contact"}/>
                 < Form />
                 <button type="submit">Send Message</button>
             </div>
